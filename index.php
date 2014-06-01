@@ -2,15 +2,6 @@
 
 require_once "models/views.php";
 
-require 'vendor/autoload.php';
-
-use OpenCloud\Rackspace;
-
-$client = new Rackspace(Rackspace::US_IDENTITY_ENDPOINT, array(
-    'username' => 'linkda01',
-    'apiKey'   => '882e9e41828b2d3f0595d0aee7ada0c2'
-));
-
 $view = new view();
 
 $view->show('header');
