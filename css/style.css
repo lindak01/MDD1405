@@ -29,6 +29,14 @@ body {
 main{
     text-align: left;
 }
+
+input {
+  background: #111111;
+}
+
+textarea {
+  background: #111111;
+}
 @media (max-width: 661px) {
   .wrapper {
     max-width: 370px;
